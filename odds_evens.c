@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(void)
 {
 	// initialise the vectors and indexs
@@ -31,6 +32,8 @@ int main(void)
 	{
 		printf("%d\n", odds[i]);
 	}
+
+	
 	printf("even numbers are \n");
 	for(int i=0; i < evens_index; i++)
 	{
